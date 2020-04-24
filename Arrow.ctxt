@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Arrow
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Arrow\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ png\ from\ https\://www.pngfind.com/mpng/iTRJm_arrow-png-bow-archery-arrow-clip\r\n\ -art-transparent/\r\n
+comment1.params=power\ theta\ dir\ grav
+comment1.target=Arrow(int,\ int,\ int,\ int)
+comment2.params=power\ theta\ dir
+comment2.target=Arrow(int,\ int,\ int)
+comment3.params=theta\ dir
+comment3.target=Arrow(int,\ int)
+comment4.params=speed\ angle
+comment4.target=void\ defineV(int,\ int)
+comment5.params=
+comment5.target=void\ act()
+comment6.params=
+comment6.target=void\ setImg()
+comment7.params=
+comment7.target=void\ update()
+comment8.params=
+comment8.target=void\ checkGround()
+numComments=9
