@@ -21,6 +21,7 @@ public class Fireball extends Projectile
     }    
     //negative diretion to launch left, positve to launch right. Any integer value
     //power, angle, explosion height and gravity can be changed
+    
     public Fireball(int power, int theta, int dir, int exploHeight, int grav){
         gravity = grav;
         speed = power;
@@ -30,6 +31,7 @@ public class Fireball extends Projectile
         defineV(speed,angle);
         setImg();
     }
+    
     public Fireball(int power, int theta, int dir, int exploHeight){
         gravity = 10;
         speed = power;
@@ -39,6 +41,7 @@ public class Fireball extends Projectile
         defineV(speed,angle);
         setImg();
     }
+    
     public Fireball(int power, int theta, int dir){
         gravity = 10;
         speed = power;
@@ -57,10 +60,12 @@ public class Fireball extends Projectile
         setImg();
     }
     //defining the x and y axis velocity
+    
     private void defineV(int speed, int angle){
         vX = (double)speed * Math.cos((double)angle*Math.PI/180.0) ;
         vY = -(double)speed * Math.sin((double)angle*Math.PI/180.0);
     }
+    
     //update method
     public void update(){
         if(direction >= 0){
@@ -78,12 +83,14 @@ public class Fireball extends Projectile
         }
         checkGround();
     }
+    
     //remove object once animation is complete
     public void checkGround(){
         if(animationComplete){
             remove();
         }
     }
+    
     //loading images into array
     public void setImg(){
         for(int i = 2; i < 40; i++){
@@ -91,6 +98,7 @@ public class Fireball extends Projectile
         }
         setImage( imgs[imgNum] );
     }  
+    
     //cycle through images for animation, and set animation completion to true
     public void animate(){
         imgNum = ( imgNum + 1 ) % imgs.length;

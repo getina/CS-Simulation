@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Catapult
+comment0.text=\r\n\ Stationary\ building\ that\ throws\ projectiles\r\n\ \r\n\ \r\n\ @author\ Ryan\ Chi\r\n\ @version\ April\ 2020\r\n
+comment1.params=health\ team
+comment1.target=Catapult(int,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ new\ catapult\r\n\ \r\n\ @param\ health\ how\ much\ health\ catapult\ has\r\n\ @param\ team\ which\ team\ its\ on\r\n
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ sets\ colour\ based\ on\ team\r\n\ alive\ when\ added\ to\ world\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Catapult\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ fire()
+comment4.text=\r\n\ shoots\ a\ projectile\r\n
+comment5.params=
+comment5.target=void\ die()
+comment5.text=\r\n\ if\ building\ has\ no\ health\ left,\ remove\r\n
+numComments=6
