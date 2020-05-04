@@ -8,14 +8,25 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {  
-    // sets values of world
+    // defines objects in the world 
+    private ScoreBar scoreBar; 
     private GreenfootImage bg;
-    private int count = 0;
+   
+    // numerical variables for graphics of world
     private static int x = 0, y = 0;
     private static int width = 960;
     private static int height = 400;
     private int maxWidth = 740;
+    
+    // variables for mechanics of world
     private boolean moveRight = true;
+    private boolean begin = false;
+    private boolean stop = false;
+    
+    // Variables for timing of program
+    private int count = 0;
+    private long endTime;
+    private int moveTime = 35 * 1000; // interval of times that world moves
     
     Castle castle = new Castle(50, "blue");
     Catapult catapult = new Catapult(50, "blue");
@@ -45,13 +56,20 @@ public class MyWorld extends World
         Arrow arrow = new Arrow(60, 30, 0);
         addObject(arrow,167,216);
         
+        scoreBar = new ScoreBar (1500);
+        addObject(scoreBar, 400, 15);
+        
         addObject(castle, 200, 300);
         addObject(catapult, 500, 300);
     }
     
     public void act()
     {
-        count++;
+        if(!begin){
+            changeEndTime();
+            begin = true;
+        }
+        
         decideWorld();
       
         if (Greenfoot.isKeyDown("a"))
@@ -59,23 +77,45 @@ public class MyWorld extends World
             castle.hit(10);
             catapult.hit(10);
         }    
+        
+        scoreBar.update(0, 0, 0, 0, 0, 0);
     }
     
     /**
-     * Decides if world should move left or right
+     * Decides if world should move left or right. Will loop
      */
     public void decideWorld()
     {
-        if (x == maxWidth) moveRight = false;
-        if (x < 0) moveRight = true;
-        
-        if(count % 10 == 0){
-            if (!moveRight){
-                moveWorld(-2, 0);
-            }else if(moveRight){
-                moveWorld(2, 0);
+        if(!stop){
+            count++;
+         
+            // determines which direction the world should move
+            if (x == maxWidth) moveRight = false;
+            if (x < 0) moveRight = true;
+            
+            // determines how fast the world will move
+            if(count % 10 == 0){
+                if (!moveRight) moveWorld(-2, 0);
+                else if(moveRight) moveWorld(2, 0);
             }
-        }
+            
+            // Stops program and resets time values
+            if(System.currentTimeMillis() > endTime){
+                stop = true;
+                changeEndTime();
+            }
+        }   
+          
+        // Waits for predetermined time, then allows world to move again
+        if(stop && System.currentTimeMillis() > endTime){
+            stop = false;              
+            changeEndTime();  
+        } 
+    }
+    
+    public void changeEndTime()
+    {
+        endTime = System.currentTimeMillis() + moveTime;   
     }
     
     /**

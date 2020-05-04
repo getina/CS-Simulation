@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ScoreBar
+comment0.text=\r\n\ ScoreBar\ is\ a\ Greenfoot\ Actor\ that\ displays\ text.\ \r\n\ The\ text\ is\ white\ on\ a\ reddish\ brown\r\n\ background\ and\ designed\ to\ work\ in\ a\ scenario\ that\ is\r\n\ 800x600\ pixels.\ \r\n\ <p>\r\n\ Display\ any\ String\ that\ fits,\ or\ send\r\n\ game\ info\ straight\ to\ customized\ method.\r\n\ @author\ Jordan\ Cohen\r\n\ @version\ April\ 2013\r\n
+comment1.params=width
+comment1.target=ScoreBar(int)
+comment1.text=\r\n\ Construct\ a\ ScoreBar\ of\ the\ appropriate\ size.\r\n\ \r\n\ @param\ width\ \ \ \ \ width\ of\ the\ World\ where\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ScoreBar\ will\ be\ placed\r\n
+comment2.params=redAlive\ redDead\ redDamage\ blueAlive\ blueDead\ blueDamage
+comment2.target=void\ update(int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Updates\ this\ ScoreBar\ with\ game\ stats.\ This\ method\ should\ be\r\n\ re-written\ to\ work\ with\ your\ specific\ labels/values\r\n\ \r\n\ @param\ alive\ \ \ \ \ current\ number\ of\ living\ Bugs\r\n\ @param\ dead\ \ \ \ \ \ number\ of\ dead\ bugs\r\n\ @param\ averageLifespan\ \ \ \r\n
+comment3.params=outputRed\ outputBlue
+comment3.target=void\ update(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Takes\ a\ String\ and\ displays\ it\ centered\ to\ the\ screen.\r\n\ \r\n\ @param\ output\ \ \ \ Text\ for\ displaying.\ \r\n
+comment4.params=value\ digits
+comment4.target=java.lang.String\ zeroAdder(int,\ int)
+comment4.text=\r\n\ Method\ that\ aids\ in\ the\ appearance\ of\ the\ scoreboard\ by\ generating\r\n\ Strings\ that\ fill\ in\ zeros\ before\ the\ score.\ For\ example\:\r\n\ \r\n\ 27\ \=\=\=>\ to\ 5\ digits\ \=\=\=>\ 00027\r\n\ \r\n\ @param\ \ \ value\ \ \ integer\ value\ to\ use\ for\ score\ output\r\n\ @param\ \ \ digits\ \ \ number\ of\ zeros\ desired\ in\ the\ return\ String\r\n\ @return\ \ String\ \ built\ score,\ ready\ for\ display\r\n
+comment5.params=number
+comment5.target=int\ digitCounter(int)
+comment5.text=\r\n\ Useful\ private\ method\ that\ counts\ the\ digit\ in\ any\ integer.\r\n\ \r\n\ @param\ number\ \ \ \ The\ number\ whose\ digits\ you\ want\ to\ count\r\n\ @return\ \ int\ \ \ \ \ The\ number\ of\ digits\ in\ the\ given\ number\r\n
+numComments=6
