@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -6,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Prayan Jegathees) 
  * @version (0.1)
  */
-public abstract class Soldier extends Actor
+public abstract class Soldier extends AnimatedCharacter
 {
     /**
      * Private variables used for all soldier subclasses
@@ -23,28 +24,25 @@ public abstract class Soldier extends Actor
     
     private boolean life;
     private String team;
-       
+          
     /**
-     * Constructor for all Soldiers, 
+     * Constructor for all Soldiers
      */
-    
     public Soldier(int hp, int spd, int aPwr, int aRt, String alliance)
     {
         health = hp;
         speed = spd;
         atkPower = aPwr;
         atkRate = aRt;
-        
         alliance = team;
         life = true;
     }
     
     /**
-     * Attack - An abstract method that is called when the unit subclass 
-     *          wants to deal damage to an enemy unit
+     * Attack - To deal damage to an enemy soldier unit
      */
     public abstract void attack();
-    
+        
     /**
      * takeDamage - When soldier subunits are hit by projectiles and lose health
      *              (amount taken varies based on the type of projectile)
