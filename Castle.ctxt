@@ -1,16 +1,16 @@
 #BlueJ class context
 comment0.target=Castle
-comment0.text=\r\n\ Castle\ are\ homebases\ for\ each\ team\r\n\ Once\ health\ reaches\ 0,\ team\ loses\r\n\ \r\n\ @author\ Ryan\ \r\n\ @version\ April\ 2020\r\n
+comment0.text=\n\ Castle\ are\ homebases\ for\ each\ team\n\ Once\ health\ reaches\ 0,\ team\ loses\n\ \n\ @author\ Ryan\ \n\ @version\ April\ 2020\n
 comment1.params=health\ team
 comment1.target=Castle(int,\ java.lang.String)
-comment1.text=\r\n\ Creates\ a\ new\ Castle\r\n\ \r\n\ @param\ health\ how\ much\ health\ castle\ has\r\n\ @param\ team\ which\ team\ its\ on\r\n
+comment1.text=\n\ Creates\ a\ new\ Castle\n\ \n\ @param\ health\ how\ much\ health\ castle\ has\n\ @param\ team\ which\ team\ its\ on\n
 comment2.params=world
 comment2.target=void\ addedToWorld(greenfoot.World)
-comment2.text=\r\n\ sets\ colour\ based\ on\ team\r\n\ alive\ when\ added\ to\ world\r\n
+comment2.text=\n\ sets\ colour\ based\ on\ team\n\ alive\ when\ added\ to\ world\n
 comment3.params=
 comment3.target=void\ act()
-comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Castle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Castle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 comment4.params=
 comment4.target=void\ die()
-comment4.text=\r\n\ if\ building\ has\ no\ health\ left,\ other\ team\ wins\r\n
+comment4.text=\n\ if\ building\ has\ no\ health\ left,\ other\ team\ wins\n
 numComments=5

@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=Soldier
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Soldier\ here.\r\n\ \r\n\ @author\ (Prayan\ Jegathees)\ \r\n\ @version\ (0.1)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Soldier\ here.\n\ \n\ @author\ (Prayan\ Jegathees)\ \n\ @version\ (0.1)\n
 comment1.params=hp\ spd\ aPwr\ aRt\ alliance
 comment1.target=Soldier(int,\ int,\ int,\ int,\ java.lang.String)
-comment1.text=\r\n\ Constructor\ for\ all\ Soldiers\r\n
+comment1.text=\n\ Constructor\ for\ all\ Soldiers\n
 comment2.params=
 comment2.target=void\ attack()
-comment2.text=\r\n\ Attack\ -\ To\ deal\ damage\ to\ an\ enemy\ soldier\ unit\r\n
+comment2.text=\n\ Attack\ -\ To\ deal\ damage\ to\ an\ enemy\ soldier\ unit\n
 comment3.params=
 comment3.target=void\ takeDamage()
-comment3.text=\r\n\ takeDamage\ -\ When\ soldier\ subunits\ are\ hit\ by\ projectiles\ and\ lose\ health\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (amount\ taken\ varies\ based\ on\ the\ type\ of\ projectile)\r\n
+comment3.text=\n\ takeDamage\ -\ When\ soldier\ subunits\ are\ hit\ by\ projectiles\ and\ lose\ health\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (amount\ taken\ varies\ based\ on\ the\ type\ of\ projectile)\n
 comment4.params=
 comment4.target=void\ die()
 numComments=5

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Fireball
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Fireball\ here.\r\n\ \r\n\ @author\ Kevin\ Lin\r\n\ @version\ 2020-0421\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Fireball\ here.\n\ \n\ @author\ Kevin\ Lin\n\ @version\ 2020-0421\n
 comment1.params=
 comment1.target=void\ act()
 comment10.params=

@@ -1,11 +1,15 @@
 #BlueJ class context
 comment0.target=Archer
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Heavy\ here.\r\n\ \r\n\ @author\ (Prayan\ Jegathees)\ \r\n\ @version\ (0.1)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Heavy\ here.\n\ \n\ @author\ (Prayan\ Jegathees)\ \n\ @version\ (0.1)\n
 comment1.params=hp\ spd\ aPwr\ aRt\ alliance
 comment1.target=Archer(int,\ int,\ int,\ int,\ java.lang.String)
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Archer\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Archer\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 comment3.params=
 comment3.target=void\ attack()
-numComments=4
+comment4.params=
+comment4.target=void\ animateShoot()
+comment5.params=
+comment5.target=void\ animateWalk()
+numComments=6

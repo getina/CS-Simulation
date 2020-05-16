@@ -1,11 +1,13 @@
 #BlueJ class context
 comment0.target=Projectile
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Projectile\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Projectile\ here.\n\ \n\ @author\ Kevin\ Lin\n\ @version\ 1.0\n\ \n
 comment1.params=
 comment1.target=void\ checkGround()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Makes\ sure\ every\ subclass\ has\ a\ method\ called\ checkGround().\n
 comment2.params=
 comment2.target=void\ update()
+comment2.text=\n\ Makes\ sure\ every\ subclass\ has\ a\ update()\ method.\n
 comment3.params=
 comment3.target=void\ remove()
+comment3.text=\n\ removes\ the\ object\ from\ the\ world.\n
 numComments=4

@@ -1,18 +1,18 @@
 #BlueJ class context
 comment0.target=Building
-comment0.text=\r\n\ Buildings\ are\ objects\ that\ are\ stationary\ but\ have\ healt\r\n\ once\ health\ reaches\ 0,\ buildings\ are\ destroyed\r\n\ \r\n\ @author\ Ryan\r\n\ @version\ April\ 2020\r\n
+comment0.text=\n\ Buildings\ are\ objects\ that\ are\ stationary\ but\ have\ healt\n\ once\ health\ reaches\ 0,\ buildings\ are\ destroyed\n\ \n\ @author\ Ryan\n\ @version\ April\ 2020\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Building\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Building\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 comment2.params=
 comment2.target=void\ checkHitProjectile()
-comment2.text=\r\n\ checks\ if\ hit\ by\ projectile\ and\ takes\ damage\ accordingly\r\n
+comment2.text=\n\ checks\ if\ hit\ by\ projectile\ and\ takes\ damage\ accordingly\n
 comment3.params=damage
 comment3.target=void\ hit(int)
-comment3.text=\r\n\ makes\ the\ building\ take\ damage\ from\ an\ attack\r\n\ @param\ damage\ how\ much\ damage\ an\ attack\ deals\r\n
+comment3.text=\n\ makes\ the\ building\ take\ damage\ from\ an\ attack\n\ @param\ damage\ how\ much\ damage\ an\ attack\ deals\n
 comment4.params=
 comment4.target=void\ die()
-comment4.text=\r\n\ if\ building\ has\ no\ health\ left,\ remove\r\n
+comment4.text=\n\ if\ building\ has\ no\ health\ left,\ remove\n
 comment5.params=
 comment5.target=java.lang.String\ getTeam()
 numComments=6

@@ -26,4 +26,12 @@ public class Archer extends Soldier
     {
         
     }
+    
+    public void animateShoot(){
+        
+    }
+    
+    public void animateWalk(){
+        
+    }
 }

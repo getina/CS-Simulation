@@ -9,8 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Fireball extends Projectile
 {
     /**
-     * Act - do whatever the Fireball wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * 
      */
     private int imgNum = 1;
     private boolean animationComplete = false;
@@ -92,7 +91,7 @@ public class Fireball extends Projectile
     }
     
     //loading images into array
-    public void setImg(){
+    private void setImg(){
         for(int i = 2; i < 40; i++){
             imgs[i-2] = new GreenfootImage( "exp " + i + ".png");
         }
@@ -100,7 +99,7 @@ public class Fireball extends Projectile
     }  
     
     //cycle through images for animation, and set animation completion to true
-    public void animate(){
+    private void animate(){
         imgNum = ( imgNum + 1 ) % imgs.length;
         getImage().scale(500,500);
         setImage( imgs[imgNum] );
