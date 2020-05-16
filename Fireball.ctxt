@@ -1,18 +1,22 @@
 #BlueJ class context
 comment0.target=Fireball
-comment0.text=\n\ Write\ a\ description\ of\ class\ Fireball\ here.\n\ \n\ @author\ Kevin\ Lin\n\ @version\ 2020-0421\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Fireball\ here.\n\n\ @author\ Kevin\ Lin\n\ @version\ 2020-0421\n
 comment1.params=
 comment1.target=void\ act()
 comment10.params=
 comment10.target=void\ animate()
 comment2.params=power\ theta\ dir\ exploHeight\ grav
 comment2.target=Fireball(int,\ int,\ int,\ int,\ int)
+comment2.text=\n\ @param\ power\ The\ power\ which\ the\ fireball\ is\ launched\n\ @param\ theta\ The\ angle\ which\ the\ fireball\ is\ launched\n\ @param\ dir\ The\ direction\ which\ the\ fireball\ is\ launched\n\ @param\ exploHeight\ The\ height\ at\ which\ the\ fireball\ explosdes\n\ @param\ grav\ The\ gravitation\ constant\n
 comment3.params=power\ theta\ dir\ exploHeight
 comment3.target=Fireball(int,\ int,\ int,\ int)
+comment3.text=\n\ @param\ power\ The\ power\ which\ the\ fireball\ is\ launched\n\ @param\ theta\ The\ angle\ which\ the\ fireball\ is\ launched\n\ @param\ dir\ The\ direction\ which\ the\ fireball\ is\ launched\n\ @param\ exploHeight\ The\ height\ at\ which\ the\ fireball\ explosdes\n
 comment4.params=power\ theta\ dir
 comment4.target=Fireball(int,\ int,\ int)
+comment4.text=\n\ @param\ power\ The\ power\ which\ the\ fireball\ is\ launched\n\ @param\ theta\ The\ angle\ which\ the\ fireball\ is\ launched\n\ @param\ dir\ The\ direction\ which\ the\ fireball\ is\ launched\n
 comment5.params=dir
 comment5.target=Fireball(int)
+comment5.text=\n\ @param\ dir\ The\ direction\ which\ the\ fireball\ is\ launched\n
 comment6.params=speed\ angle
 comment6.target=void\ defineV(int,\ int)
 comment7.params=
