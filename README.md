@@ -1,2 +1,2 @@
 # CS Simulation
- for ICS4U
+This repository is a Greenfoot game coded in Java. This was created for our high school course ICS4U1.
